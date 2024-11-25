@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 
 export default function ContactRow({ setSelectedContactId, contact }) {
+
+  
   return (
     <tr
       onClick={() => {
